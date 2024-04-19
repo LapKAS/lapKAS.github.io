@@ -1,0 +1,23 @@
+---
+layout: post
+---
+<!doctype html>
+<html lang="en">
+{% include header.html %}
+<body class="container">
+<article id="post">
+    <header class="post-header mb-3">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <hr/>
+        <div class="small post-date"><i class="bi bi-calendar4-week"></i>  {{ page.date | date: "%b %-d, %Y" }}</div>
+    </header>
+    {{ content }}
+</article>
+<div class="badge text-bg-primary">
+    {% for category in page.categories %}
+    <span class="post-category">{{ category }}</span>
+    {% endfor %}
+</div>
+{% include footer.html %}
+</body>
+</html>
