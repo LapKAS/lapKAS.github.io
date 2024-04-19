@@ -21,7 +21,7 @@
 title: Git Lamayuda
 email: email@email.com
 description: >- # this means to ignore newlines until "baseurl:"
-  i Love You ❤️
+  i Love You
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: twitter_account
