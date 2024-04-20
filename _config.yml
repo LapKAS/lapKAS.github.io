@@ -34,6 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-paginate
 
 defaults:
   -
@@ -42,7 +43,7 @@ defaults:
       path: _posts
     values:
       is_post: true
-      layout: default
+      layout: post
   -
     scope:
       type: pages
